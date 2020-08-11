@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Drishty_First_Application</string>
+    <string name="button">Button</string>
+    <string name="todo">TODO</string>
+    <string name="img_20191215_wa0002.jpg">img_dri</string>
+    <string name="set_up_your_view">set up your view</string>
+    <string name="you_can_chanhe_it_in_setting">You can chanhe it in setting</string>
+    <string name="for_complite_beginners">FOR COMPLITE BEGINNERS</string>
+    <string name="templates">Templates</string>
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent">
-  
+
 
         <TextView
             android:id="@+id/tv_setup_your_plan"
@@ -28,6 +28,7 @@
 
 
         <RelativeLayout
+           android:id="@+id/tv_change_setting1"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_below="@+id/tv_change_settings"
@@ -74,11 +75,41 @@
                 android:layout_below="@+id/tv_setup_wizard"
                 android:layout_margin="10dp"
                 android:background="#ffffff" />
+    </RelativeLayout>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/tv_change_setting1"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/bg_grident1">
 
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/equilizer" />
 
+        <TextView
+            android:id="@+id/Setup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Setup Your Plan"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+        <View
 
-
+            android:layout_width="50dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/Setup2"
+            android:layout_margin="10dp"
+            android:background="#ffffff" />
 
 
     </RelativeLayout>
