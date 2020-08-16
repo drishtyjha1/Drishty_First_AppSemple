@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_setup_plan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="set up youe view "
+        android:layout_margintop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/sub_parent1"
+        android:layout_below="@+id/tv_setup_plan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="you can choose this in the settings"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#000000"/>
+    <LinearLayout
+
+        android:id="@+id/sub_parent2"
+        android:layout_below="@+id/sub_parent1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_gradient"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="3.3"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bg_grident1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="3.3"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/dg_gradient2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="3.3"/>
+    </LinearLayout>
+
+</RelativeLayout>
